@@ -13,10 +13,10 @@
 	<h1>Orders online</h1>
 	<form action="order.php" method="post"> 
 		Rose (4.99 $): 
-		<lable><input type="text" name="rose" <?= isset($_SESSION['error_number_r']) ? 'value="'.$_SESSION['error_number_r'].'"' : ''?>></lable>	
+		<label><input type="text" name="rose" <?= isset($_SESSION['error_number_r']) ? 'value="'.$_SESSION['error_number_r'].'"' : ''?>></label>	
 			<br /><br />
 		Tulip (6.45 $): 
-		<lable><input type="text" name="tulip" <?= isset($_SESSION['error_number_t']) ? 'value="'.$_SESSION['error_number_t'].'"' : ''?>></lable>	
+		<label><input type="text" name="tulip" <?= isset($_SESSION['error_number_t']) ? 'value="'.$_SESSION['error_number_t'].'"' : ''?>></label>	
 			<br /><br />
 		<input type="submit" value="Send" />
 	</form>
